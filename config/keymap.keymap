@@ -69,10 +69,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp N7        &kp N8        &kp N9        &kp MINUS  &trans    &kp RC(RA(LEFT_ARROW))  &kp RA(RC(D))  &kp RA(RC(ENTER))      &kp RA(RC(T))  &kp RA(RC(RIGHT_ARROW))  &trans
-&kp PERCENT      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp HASH  &kp LEFT_PARENTHESIS    &mkp MB1       &trans                 &mkp MB2       &trans                   &trans
-&kp PIPE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp AT    &trans                  &trans         &kp RIGHT_PARENTHESIS  &kp UNDER      &trans                   &trans  &trans  &kp QUESTION
-&trans           &kp N0        &kp PERIOD    &kp COMMA     &trans     &trans    &trans                  &trans         &trans                 &trans         &trans                   &trans
+&kp EXCLAMATION  &kp N7        &kp N8        &kp N9        &kp MINUS  &trans    &trans                &kp RA(RC(LEFT_ARROW))  &kp RA(RC(D))          &kp RA(RC(ENTER))  &kp RA(RC(T))  &kp LC(LA(RIGHT_ARROW))
+&kp PERCENT      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp HASH  &kp LEFT_PARENTHESIS  &mkp MB1                &mkp MB1               &mkp MB2           &mkp MB2       &trans
+&kp PIPE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp AT    &trans                &trans                  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans         &trans                   &trans  &kp QUESTION
+&trans           &kp N0        &kp PERIOD    &kp COMMA     &trans     &trans    &trans                &trans                  &trans                 &trans             &trans         &trans
             >;
         };
 
