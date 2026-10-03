@@ -57,10 +57,10 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp Q   &kp W      &kp E         &kp R         &kp T        &kp Y            &kp U          &kp I          &kp O           &kp P           &trans
-&kp TAB         &kp A   &kp S      &kp D         &lt 4 F       &kp G        &kp H            &kp J          &kp K          &kp L           &kp MINUS       &kp ENTER
-&kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B        &kp EXCLAMATION  &kp QUESTION   &kp N          &kp M           &kp M           &kp COMMA        &kp UP_ARROW  &mt RSHFT PERIOD
-&horipu         &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 2 SPACE  &lt 3 BACKSPACE  &kp BACKSPACE  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp Q           &kp W      &kp E         &kp R                &kp T        &trans            &kp Y              &kp U          &kp I          &kp O           &kp P           &trans
+&kp A           &kp S      &kp D         &lt 4 F              &kp G        &trans            &kp H              &kp J          &kp K          &kp L           &kp ENTER       &kp ENTER
+&kp Z           &kp X      &kp C         &kp V                &kp B        &trans            &kp C_VOLUME_UP    &kp MINUS      &kp N          &kp M           &kp M           &kp COMMA        &kp UP_ARROW  &mt RSHFT PERIOD
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LGUI LANGUAGE_1  &lt 2 SPACE  &lt 3 LANGUAGE_2  &kp C_VOLUME_DOWN  &kp BACKSPACE  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -75,10 +75,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp MINUS  &kp N7        &kp N8        &kp N9        &trans    &kp RC(RA(LEFT_ARROW))  &kp RA(RC(D))  &kp RA(RC(ENTER))      &kp RA(RC(T))  &kp RA(RC(RIGHT_ARROW))  &trans
-&kp PERCENT      &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp HASH  &kp LEFT_PARENTHESIS    &mkp MB1       &trans                 &mkp MB2       &trans                   &trans
-&kp PIPE         &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp AT    &trans                  &trans         &kp RIGHT_PARENTHESIS  &kp UNDER      &trans                   &trans  &trans  &kp QUESTION
-&trans           &trans     &kp N0        &kp PERIOD    &kp COMMA     &trans    &trans                  &trans         &trans                 &trans         &trans                   &trans
+&kp EXCLAMATION  &kp N7        &kp N8        &kp N9        &kp MINUS  &trans    &kp RC(RA(LEFT_ARROW))  &kp RA(RC(D))  &kp RA(RC(ENTER))      &kp RA(RC(T))  &kp RA(RC(RIGHT_ARROW))  &trans
+&kp PERCENT      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp HASH  &kp LEFT_PARENTHESIS    &mkp MB1       &trans                 &mkp MB2       &trans                   &trans
+&kp PIPE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp AT    &trans                  &trans         &kp RIGHT_PARENTHESIS  &kp UNDER      &trans                   &trans  &trans  &kp QUESTION
+&trans           &kp N0        &kp PERIOD    &kp COMMA     &trans     &trans    &trans                  &trans         &trans                 &trans         &trans                   &trans
             >;
         };
 
