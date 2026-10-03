@@ -75,10 +75,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp N7        &kp N8        &kp N9        &kp MINUS  &trans    &kp RC(RA(LEFT_ARROW))  &kp RA(RC(D))  &kp RA(RC(ENTER))      &kp RA(RC(T))  &kp RA(RC(RIGHT_ARROW))  &trans
-&kp PERCENT      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &kp HASH  &kp LEFT_PARENTHESIS    &mkp MB1       &trans                 &mkp MB2       &trans                   &trans
-&kp PIPE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp AT    &trans                  &trans         &kp RIGHT_PARENTHESIS  &kp UNDER      &trans                   &trans  &trans  &kp QUESTION
-&trans           &kp N0        &kp PERIOD    &kp COMMA     &trans     &trans    &trans                  &trans         &trans                 &trans         &trans                   &trans
+&kp EXCLAMATION  &kp MINUS  &kp N7        &kp N8        &kp N9        &trans    &kp RC(RA(LEFT_ARROW))  &kp RA(RC(D))  &kp RA(RC(ENTER))      &kp RA(RC(T))  &kp RA(RC(RIGHT_ARROW))  &trans
+&kp PERCENT      &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp HASH  &kp LEFT_PARENTHESIS    &mkp MB1       &trans                 &mkp MB2       &trans                   &trans
+&kp PIPE         &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp AT    &trans                  &trans         &kp RIGHT_PARENTHESIS  &kp UNDER      &trans                   &trans  &trans  &kp QUESTION
+&trans           &trans     &kp N0        &kp PERIOD    &kp COMMA     &trans    &trans                  &trans         &trans                 &trans         &trans                   &trans
             >;
         };
 
@@ -86,8 +86,8 @@
             bindings = <
 &trans  &trans  &trans  &trans         &kp LG(F10)  &kp LA(LC(SEMI))    &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL
 &trans  &trans  &trans  &trans         &trans       &kp LG(LA(LS(N0)))  &trans                &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &Horipu630811  &horipu0811  &horipu             &trans                &trans        &trans        &trans        &trans        &trans          &trans  &trans
-&trans  &trans  &trans  &trans         &trans       &trans              &kp LS(LG(NUMBER_4))  &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &Horipu630811  &horipu0811  &horipu             &kp LG(LS(NUMBER_4))  &trans        &trans        &trans        &trans        &trans          &trans  &trans
+&trans  &trans  &trans  &trans         &trans       &trans              &trans                &trans        &trans        &trans        &trans        &trans
             >;
         };
 
