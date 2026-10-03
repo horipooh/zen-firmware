@@ -19,7 +19,7 @@
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
         };
     };
 
@@ -51,10 +51,10 @@
 
         layer_0 {
             bindings = <
-&kp Q           &kp W      &kp E         &kp R                &kp T        &trans            &kp Y              &kp U          &kp I          &kp O           &kp P           &trans
-&kp A           &kp S      &kp D         &lt 4 F              &kp G        &trans            &kp H              &kp J          &kp K          &kp L           &kp ENTER       &kp ENTER
-&kp Z           &kp X      &kp C         &kp V                &kp B        &kp MINUS         &kp C_VOLUME_UP    &kp MINUS      &kp N          &kp M           &kp M           &kp COMMA        &kp UP_ARROW  &mt RSHFT PERIOD
-&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LGUI LANGUAGE_1  &lt 2 SPACE  &lt 3 LANGUAGE_2  &kp C_VOLUME_DOWN  &kp BACKSPACE  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp Q           &kp W      &kp E         &kp R                &kp T        &kp COLON         &kp UNDER          &kp Y          &kp U          &kp I           &kp O           &kp P
+&kp A           &kp S      &kp D         &lt 4 F              &kp G        &kp SLASH         &kp MINUS          &kp H          &kp J          &kp K           &kp L           &kp ENTER
+&kp Z           &kp X      &kp C         &kp V                &kp B        &kp EXCLAMATION   &kp C_VOLUME_UP    &kp PAGE_UP    &kp QUESTION   &kp N           &kp M           &kp COMMA        &kp UP_ARROW  &mt RSHFT PERIOD
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LGUI LANGUAGE_1  &lt 2 SPACE  &lt 3 LANGUAGE_2  &kp C_VOLUME_DOWN  &kp PAGE_DOWN  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
