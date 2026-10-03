@@ -36,6 +36,20 @@
             bindings = <&none &kp H &kp O &kp R &kp I &kp P &kp U &kp RET>;
             label = "HORIPU";
         };
+
+        horipu0811: horipu0811 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(H) &kp O &kp R &kp I &kp P &kp U &kp N0 &kp N8 &kp N1 &kp N1>;
+            label = "HORIPU0811";
+        };
+
+        Horipu630811: Horipu630811 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(H) &kp O &kp R &kp I &kp P &kp U &kp N6 &kp N3 &kp N0 &kp N8 &kp N1 &kp N1>;
+            label = "HORIPU630811";
+        };
     };
 
     keymap {
@@ -70,10 +84,10 @@
 
         Macro,bt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL
-&trans  &trans  &trans  &trans  &trans  &kp LG(F10)  &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans        &trans        &trans        &trans        &trans        &trans          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans         &kp LG(F10)  &kp LA(LC(SEMI))    &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL
+&trans  &trans  &trans  &trans         &trans       &kp LG(LA(LS(N0)))  &trans                &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &Horipu630811  &horipu0811  &horipu             &trans                &trans        &trans        &trans        &trans        &trans          &trans  &trans
+&trans  &trans  &trans  &trans         &trans       &trans              &kp LS(LG(NUMBER_4))  &trans        &trans        &trans        &trans        &trans
             >;
         };
 
